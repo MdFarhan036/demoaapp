@@ -165,7 +165,7 @@ h5 {
     width: 6rem;
 }
 
-.form-control {
+/* .form-control {
     background: hsl(252, 30%, 95%);
     border-radius: 2rem;
     padding: 0.6rem 1rem;
@@ -177,7 +177,7 @@ h5 {
     margin-left: 1rem;
     font-size: 0.9rem;
     color: hsl(252, 30%, 17%);
-}
+} */
 
 .login-button {
     display: flex;
