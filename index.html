@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="./style.css" rel="stylesheet">
     <title>App</title>
 
@@ -18,7 +19,7 @@
 <body>
     <header>
 
-        <div className="sub-header">
+        <!-- <div className="sub-header">
 
             <div class="container">
 
@@ -39,8 +40,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="top-brand">
+        </div> -->
+        <!-- <div className="top-brand">
             <div className="container">
                 <div className="logo-brand d-flex align-items-center">
                     <a className="brand-logo">
@@ -61,69 +62,98 @@
                         <i class="fa-solid fa-cart-shopping">Cart</i>
                     </div>
                 </div>
-            </div>  
-        </div>
-        <!-- navbar start -->
-        <nav class="navbar fixed-top">
-            <div class="nav-content">
-                <div class="main-menu collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Item1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item2</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                id="navbarDropdownMenuLink" role="button" aria-expanded="false">Item3 <i
-                                    class="fa fa-angle-down "></i></a>
-                            <ul>
-                                <li><a href="#">product1</a></li>
-                                <li><a href="#">product2</a></li>
-                                <li><a href="#">product3</a></li>
-                                <li><a href="#">product4</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                                id="navbarDropdownMenuLink" role="button" aria-expanded="false">Item4 <i
-                                    class="fa fa-angle-down "></i></a>
-                            <ul>
-                                <li><a href="#">Service1</a></li>
-                                <li><a href="#">Service2</a></li>
-                                <li><a href="#">Service3</a></li>
-                                <li><a href="#">Service4</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item5</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item6</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item7</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Item1</a>
-                        </li>
-                        <li class="nav-item">
+            </div>
+        </div> -->
 
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
-                        </li>
-                    </ul>
+        <!-- navbar start -->
+
+
+        
+        <div class="px-3 py-2 text-bg-success border-bottom">
+            <div class="container">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a  class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">    
+                    <li>Lowest guranteed price across the globe. Get Upto 50% off! Book Now</li>   
+                </a>
+                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">        
+                  <li><a class="nav-link me-2 text-reset" href="#"><i class="fa-solid fa-phone-volume"></i></a></li>
+                  <li><a class="nav-link me-2 text-reset" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                  <li><a class="nav-link text-reset" href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        <nav class="py-3 mb-4 border-bottom">
+            <div class="container d-flex flex-wrap justify-content-center">
+                <a href="/"
+                    class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+                    <span class="fs-4 text-success fw-bold" >ShopKart</span>
+                </a>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success  " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+                <div class="text-end d-flex align-items-center  link-body-emphasis text-decoration-none">
+                    <i class="fa-solid fa-user ms-4 me-1"></i>Login
+                    <i class="fa-solid fa-cart-shopping ms-4 me-1"></i>Cart
                 </div>
+            </div>
             </div>
         </nav>
     </header>
-    <div class="banner">
+
+    <div class="container col-xxl-12 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-5">
+            <img src="./Illustration.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1">Get Your Next Job In 3 Steps</h1>
+           
+            <div class="d-flex flex-column flex-md-row  py-md-5 align-items-center justify-content-left">
+                <div class="list-group">
+                  <a href="#" class=" text-dark d-flex gap-3 py-3" aria-current="true">
+                    <img src="./Screenshot 2023-10-26 232406.png" alt="twbs" width="32" height="32" class=" flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Create a profile</h6>
+                        <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit.</p>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class=" text-dark d-flex gap-3 py-3" aria-current="true">
+                    <img src="./Screenshot 2023-10-26 232406.png" alt="twbs" width="32" height="32" class=" flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Instant Results</h6>
+                        <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit.</p>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class=" text-dark d-flex gap-3 py-3" aria-current="true">
+                    <img src="./Screenshot 2023-10-26 232406.png" alt="twbs" width="32" height="32" class=" flex-shrink-0">
+                    <div class="d-flex gap-2 w-100 justify-content-between">
+                      <div>
+                        <h6 class="mb-0">Apply Directly</h6>
+                        <p class="mb-0 opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit.</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            <div class="d-grid d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-success btn-lg px-4 me-md-2">Get Started New!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- <div class="banner">
         <div class="row">
             <div class="col-md-7 ban-details">
                 <h1 class="det">Get Your Next Job In 3 Steps</h1>
@@ -153,7 +183,9 @@
                 <img class="ill" src="./Illustration.png" alt>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
 </body>
 
 </html>
